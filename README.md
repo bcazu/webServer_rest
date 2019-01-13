@@ -1,5 +1,5 @@
-##Web server rest
-Iniciar con ```git init``` para instalar todos los paquetes.
+#Web server rest
+Iniciar con `git init` para instalar todos los paquetes.
 
-###Contenido
+##Contenido
 express, pordy parser, api rest
