@@ -55,7 +55,7 @@ app.post('/usuario', ( req, res ) => {
     let usuarioModel = new UsuarioModel({
         nombre: body.nombre,
         email: body.email,
-        password: bcrypt.hashSync(body.password, 10),
+        password: body.password,
         role: body.role
     }); 
     let usuarioDto = JSON.parse(JSON.stringify(UsuarioDto));
