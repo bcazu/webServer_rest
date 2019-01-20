@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Mongo, api rest, express",
   "engines":{
-    "node": "v8.14.1"
+    "node": "8.14.1"
   },
   "main": "index.js",
   "scripts": {
