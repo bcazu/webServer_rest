@@ -1,6 +1,5 @@
 const express = require('express');
 //encriptar contraseñas
-const bcrypt = require('bcrypt');
 //herramienta para ciclos, objetos, arrays etc..
 const _ = require('underscore');
 
