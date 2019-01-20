@@ -43,16 +43,19 @@ let usuarioModel = new Schema({
         type: Boolean,
         default: true
     },
-    goole: {
+    google: {
         type: Boolean,
         default: false
     }
 });
 //este modelo es con el que voy a responderle al usuario una vez haya guardado. Muy similar a la estructura model y dto que se maneja en JAVA
 let usuarioDto = {
-    nombre: '',
-    email: '',
-    img: ''
+    nombre: 'nombre',
+    email: 'email',
+    img: 'img',
+    role: 'role',
+    estado: 'estado',
+    google: 'google',
     
 };
 

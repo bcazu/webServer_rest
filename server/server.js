@@ -14,7 +14,8 @@ app.use(bodyParser.json())
 //Importar y usar las rutas
 app.use( require('./routes/usuario') );
 
-mongoose.connect('mongodb://localhost:27017/cafe',{ useNewUrlParser: true }, ( e, res ) => {
+//urlDB es una variable de entorno que creo en el config.js
+mongoose.connect(process.env.URLDB ,{ useNewUrlParser: true }, ( e, res ) => {
     if(e) throw new Error(" Opps! :(");
     console.log("Conexion: On line :)");
 });
